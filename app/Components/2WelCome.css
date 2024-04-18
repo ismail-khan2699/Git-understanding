@@ -1,0 +1,44 @@
+#root{
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+.button{
+    background: linear-gradient(102.67deg, #5B53F9 7.43%, #AC71D6 46.26%, #FF8E57 104.5%);
+    border-radius: 100px;
+    width: fit-content;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-size: 0.7rem;
+    height: 40px;
+    margin-top: 10px;
+    transition: transform 0.2s;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .butonOv {
+    border: double 0.5px transparent;
+    border-radius: 100px;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(103.47deg, #5B53F9 22.39%, #AC71D6 46.68%, #FF8E57 83.1%) ;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-size: 0.7rem;
+    height: 40px;
+    margin-left: -1px;
+    margin-top: 10px;
+    transition: transform 0.2s;
+  }
+  .butonOv:hover{
+    transform: scale(105%);
+  }
+  

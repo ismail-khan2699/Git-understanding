@@ -1,0 +1,96 @@
+.intro {
+    background: linear-gradient(102.26deg, #5B53F9 -13.11%, #AC71D6 36.24%, #FF8E57 110.26%);
+    width: 100%;
+    height: 500px;
+    display: flex; 
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .intro .navbar {
+    position: absolute;
+    top: 0;
+    width: 97%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    margin: 0 20px 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: #111112;
+  }
+  
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intro .navbar img {
+    height: 25px;
+    width: 25px;
+    align-items: center;
+  }
+  .intro svg{
+    width: 100%;
+  }
+  .centers {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    color: white; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wave {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 155px;
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1270 155" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="white" d="M 0 32 C 112 32 168 108 280 108 L 280 108 L 280 0 L 0 0 Z" stroke-width="0"></path> <path fill="white" d="M 279 108 C 514.2 108 631.8 6 867 6 L 867 6 L 867 0 L 279 0 Z" stroke-width="0"></path> <path fill="white" d="M 866 6 C 1028.8 6 1110.2 50 1273 50 L 1273 50 L 1273 0 L 866 0 Z" stroke-width="0"></path><path fill="white" d="M 1272 50 C 1272.8 50 1269.2 0 1270 0 L 1270 0 L 1270 0 L 1272 0 Z" stroke-width="0"></path></svg>');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+  }
+  
+  @media (max-width: 1269px) {
+    .wave {
+      background-size: contain;
+    }
+  }
+  
+  .buttons{
+    background: linear-gradient(93.05deg, #FF66C4 5.8%, rgba(242, 74, 177, 0) 98.1%);
+    border-radius: 100px;
+    width: fit-content;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-size: 0.7rem;
+    height: 40px;
+    margin-top: 10px;
+    transition: transform 0.2s;
+  }
+  .intro .centers h1{
+    font-size: 3rem;
+    margin-bottom: 1px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .intro .centers h3{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .buttons:hover{
+    transform: scale(103%);
+  }

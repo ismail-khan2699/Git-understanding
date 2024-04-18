@@ -1,0 +1,12 @@
+#root {
+    min-width: 100%;
+    margin: 0rem 0rem 0rem 0rem;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  p{
+    margin: 10px;
+    font-weight: 500;
+    font-size:2rem;
+  }
+  

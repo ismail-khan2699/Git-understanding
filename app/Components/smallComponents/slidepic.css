@@ -1,0 +1,79 @@
+[class^="number-slide"],
+[class*=" number-slide"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.number-slide1 {
+  height: auto;
+  
+}
+
+.navigation-wrapper {
+  position: relative;
+}
+
+.dots {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.dot {
+  border: none;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 0 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dot:focus {
+  outline: none;
+}
+
+.dot.active {
+  background: rgba(120, 94, 235, 1);
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  padding-top: 0px;
+  fill: rgba(120, 94, 235, 1);
+  cursor: pointer;
+}
+
+.arrow--left {
+  left: 5px;
+}
+
+.arrow--right {
+  left: auto;
+  right: 5px;
+}
+
+.arrow--disabled {
+  fill: rgba(120, 94, 235, 0.301);
+}
+
+.profile-picture {
+  width: 100px; 
+  height: 100px; /* Adjust as needed */
+  border-radius: 50%; /* Makes the frame circular */
+  overflow: hidden; /* Clips the content to the rounded shape */
+  display: block;
+}
+
+.face-image {
+  width: 100px; /* Ensures the image fills the container */
+  height: 100px; /* Maintains the aspect ratio */
+  object-fit: cover; 
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  z-index: 10;/* Fits the image inside the container, preserving its aspect ratio and cropping if necessary */
+}
